@@ -1,0 +1,164 @@
+/* body { 
+  background: #ccc;
+  font-family: helvetica, arial, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+} */
+.nav-color {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  .nav-color1{
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+  }
+  
+  li {
+    float: left;
+  }
+  .float--right{
+    float:right;  
+    cursor: pointer;
+
+  }
+  
+  /* clear'n floats */
+  ul:after {
+    clear: both;
+  }
+  
+  ul:before,
+  ul:after {
+      content: " ";
+      display: table;
+  }
+  
+  nav {
+    position: relative;
+    background: #007bff;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  /* prime */
+  ul.primary li a {
+    display: block;
+    padding: 20px 30px;
+  }
+  
+  ul.primary li:last-child a {
+    border-right: none;
+  }
+  
+  ul.primary li a:hover {
+    
+    color: #000;
+  }
+  
+  /* subs */
+  ul.sub {
+    position: absolute;
+    z-index: 200;
+    box-shadow: 2px 2px 0 #BEBEBE;
+    width: 25%;
+    display:none;
+  }
+  
+  ul.sub li {
+    float: none;
+    margin: 0;
+  }
+  
+  ul.sub li a {
+    /* border-bottom: 1px dotted white; */
+    border-right: none;
+    color: #000;
+    padding: 15px 30px;
+  }
+  
+  ul.sub li:last-child a {
+    border-bottom: none;
+  }
+  
+  ul.sub li a:hover {
+    color: rgb(255, 255, 255);
+    background: #eeeeee;
+  }
+  
+  /* sub display*/
+  ul.primary li:hover ul {
+    display: block;
+    background: #007bff;
+  }
+  
+  /* keeps the tab background white */
+  ul.primary li:hover a {
+    background: #007bff;
+    color: white;
+    text-shadow: none;
+  }
+  
+  ul.primary li:hover > a{
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .decor {
+      padding: 3px;
+    }
+    
+    .wrap {
+      width: 100%;
+      margin-top: 0px;
+    }
+    
+     li {
+      float: none;
+    }
+    
+    ul.primary li:hover a {
+      background: none;
+      color: #8B8B8B;
+      text-shadow: 1px 1px #000;
+    }
+  
+    ul.primary li:hover ul {
+      display: block;
+      background: #272727;
+      color: #fff;
+    }
+    
+    ul.sub {
+      display: block;  
+      position: static;
+      box-shadow: none;
+      width: 100%;
+    }
+    
+    ul.sub li a {
+      background: #272727;
+        border: none;
+      color: #8B8B8B;
+    }
+    
+    ul.sub li a:hover {
+      color: #ccc;
+      background: none;
+    }
+  }
+
+ .svg--list {
+     margin-top:4px;
+ }

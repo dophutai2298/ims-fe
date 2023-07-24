@@ -1,0 +1,14 @@
+.modalml{
+    margin-left: 90px;
+}
+
+.swal2-styled.swal2-cancel {
+    color: black;
+    background:#f8f9fa;
+    border: 1px solid #007bff;
+  }
+
+.l-2-10 {
+    flex: 1 0 12.5%;
+    max-width: 12.5%;
+  }

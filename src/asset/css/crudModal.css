@@ -1,0 +1,90 @@
+select {
+    width: 100px;
+}
+
+.right-modal {
+    padding-left: 20px;
+    font-weight: 600;
+    float: left;
+}
+
+.left-modal {
+    font-weight: 600;
+    float: left;
+}
+
+input[type="date"],
+.input-candidate {
+    width: 189.04px;
+    height: 29.98px;
+}
+
+.container.justify-content-center {
+    margin-top: 400px
+}
+
+.modal-content-top {
+    margin-top: 10px !important;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    justify-content: center;
+    border: none
+}
+
+.btn-danger-del,
+.btn-danger-del:hover {
+    color: white;
+    background: #007bff;
+    border: 1px solid #007bff;
+    width: 100px;
+}
+
+.btn-light,
+.btn-light:hover {
+    color: black;
+    border: 1px solid #007bff;
+    width: 100px;
+}
+
+.btn:focus {
+    box-shadow: none
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.swal2-styled.swal2-cancel {
+    color: black;
+    background: #f8f9fa;
+    border: 1px solid #007bff;
+    width: 100px;
+}
+
+.swal2-styled.swal2-confirm {
+    width: 105px;
+    border: 1px solid #007bff;
+}
+
+.inputDetail{
+    -webkit-appearance: none;
+    border: none;
+    width: 189.04px;
+    padding-bottom: 8px;
+    color: black;
+    background: white;
+}
+
+.inputDetail::-webkit-inner-spin-button,
+.inputDetail::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.modal-open::-webkit-scrollbar {
+    overflow-y: scroll;
+}

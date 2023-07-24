@@ -1,0 +1,119 @@
+.background {
+  position: absolute;
+}
+.modal-content1 {
+  width: 774px;
+  height: 340px;
+}
+
+.modal-content2 {
+  width: 82%;
+}
+
+.right-modal2 {
+  padding-left: 80px;
+  font-weight: 600;
+}
+.left-modal2 {
+  font-weight: 600;
+}
+
+.modal-header {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+select {
+  width: 100px;
+}
+.taolichpvfooter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+
+.modal-dialog1 {
+  margin: 4% 0 0 25%;
+}
+.btn1 {
+  background-color: #6c757d;
+}
+.btn2 {
+  background-color: #007bff;
+  color: white;
+}
+
+.swal-title {
+  margin: 10% 30%;
+  font-size: 16px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+}
+
+.swal2-popup {
+  margin: 200px 500px;
+}
+
+.lable-right {
+  margin-left: -63px;
+}
+.btn-danger-del,
+.btn-danger-del:hover {
+  color: white;
+  background: #007bff;
+  border: 1px solid #007bff;
+  width: 105px;
+}
+
+.btn-light,
+.btn-light:hover {
+  color: black;
+  background: #f8f9fa;
+  width: 105px;
+}
+
+.btn-suss,
+.btn-suss:hover {
+  color: white;
+  background: green;
+  width: 105px;
+}
+h3 {
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4 {
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-danger-del,
+.btn-danger-del:hover {
+  color: white;
+  background: #007bff;
+  border: 1px solid #007bff;
+  width: 100px;
+}
+
+.btn-light,
+.btn-light:hover {
+  color: black;
+  background: white;
+  width: 100px;
+}
+.title__review {
+  color: red;
+  margin-bottom: 2%;
+}
+.description__review-content {
+  color: black;
+}
+.infor__review-link {
+  color: black;
+}
+.infor__review {
+  display: inline-grid;
+  justify-items: start;
+}

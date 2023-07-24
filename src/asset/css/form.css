@@ -1,0 +1,110 @@
+
+.login{
+  position: relative;
+  height: 740px;
+  background: url('../../components//login/img/background.jpg') center center / cover no-repeat;
+}
+.login__form{
+  width: 22vw;
+  min-width: 350px;
+  background-color: #fff;
+  box-shadow: 8px 12px 6px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.login__header{
+  position: absolute;
+  width: 746px;
+  height: 373px;
+  min-width: 700px;
+  background: rgba(25,54,70,.45);
+  box-shadow: 0 4px 10px 8px rgb(33 95 123 / 50%);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.login__form{
+  width: 500px;
+  min-width: 500px;
+  background-color: #fff;
+  box-shadow: 8px 12px 6px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.login__content{
+  padding: 10%;
+}
+
+.login__content-heading{
+  font-size: 24px!important;
+  text-align: center;
+  margin-bottom: 6vh;
+  margin-top: 3vh;
+  color: #1790c9;
+}
+.login__import-btn{
+  height: 40px!important;
+  width: 40%;
+  background: #1790c9;
+  border-radius: 6px;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 16px!important;
+  margin-top: 3vh;
+  border: none;
+  cursor: pointer;
+}
+.form-input{
+  padding: 20PX;
+  border: 1PX solid rgb(70, 52, 233);
+  border-radius: 4px;
+  height: 40px;
+  width: 60%;
+  padding: 0 20px;
+  transition: .25s ease;
+  font-size: 1.5rem;
+
+}
+.form-input:focus{
+  border-color: rgb(70, 52, 233);
+}
+.form-field{
+  position: relative;
+  width: 100%;
+  padding-bottom: 25px;
+}
+.form-lable{
+  position: absolute;
+  top: 30% ;
+  transform: translateY(-50%);
+  left: 90px;
+  user-select: none;
+  color: rgb(102, 100, 100);
+  pointer-events: none;
+  transition: .25s ease;
+  font-size: 15px;
+}
+.form-input:not(:placeholder-shown) +
+.form-lable,
+.form-input:focus + .form-lable{
+  top: 0;
+  display: inline-block;
+  background-color: white;
+  color: rgb(70, 52, 233);
+}
+.h1-batch{
+  text-align: center;
+  color: #1aa3ff;
+}

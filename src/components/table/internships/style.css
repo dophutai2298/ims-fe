@@ -1,0 +1,120 @@
+.home-candidate {
+    margin-left: 200px;
+    margin-right: 200px;   
+    border: 2px solid #575555;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  }
+  .home-candidate--list {
+    background-color: #007bff;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .fa-trash-o{
+    color:red;
+  }
+  .fa-pencil-square-o{
+    color:gold;
+  }
+  .fa-calendar-plus-o{
+    color:chartreuse;
+  }
+  .fa-eye{
+    color:#007bff;
+  }
+  .l-2-8-batch{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+  }
+  .l-2-8-TV{
+    flex: 1 0 11.1111111%;
+    max-width: 12.5%;
+  }
+  .l-2-8-dateEnd{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+    margin-left:-2px;
+  }
+  .l-2-8-dateStart{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+    margin-left:-3px;
+  }
+  .l-2-8-kindOfInternship{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+    margin-left:2px;
+  }
+  .l-2-8-status{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+    margin-left:4px;  
+  }
+  TacVu
+  .l-2-8-TacVu{
+    flex: 1 0 11.1111111%;
+    max-width: 17%;
+    margin-right:1px;  
+  }
+    
+  span {
+    height: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+  .aw{
+    list-style-type: none;
+    display: block !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .home-candidate--list{
+    padding-top: 12px;
+  }
+.input-Batch{
+width: 180px;
+height:30px;
+margin-left: 10px;
+}
+h3 {
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4{
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-Batch,
+.btn-Batch:hover{
+  color:white;
+  background: #007bff;
+  border: 1px solid #007bff;
+  width:105px;
+}
+.btn-Batch-Cancel{
+  color: black;
+  background:#f8f9fa;
+  border: 1px solid #007bff;
+  width:105px;
+
+}
+.swal2-styled.swal2-cancel {
+  color: black;
+  background:#f8f9fa;
+  border: 1px solid #007bff;
+  width:105px;
+}
+.swal2-styled.swal2-confirm{
+  width:105px;
+  border: 1px solid #007bff;
+}
+.modal-open,
+::-webkit-scrollbar {
+    overflow: scroll;
+}

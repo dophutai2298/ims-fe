@@ -1,0 +1,59 @@
+  .table-getStarting {
+    background-color: #007bff;
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+  }
+  .modal-content{
+    margin-top: 150px;
+  }
+.modal-backdrop.show{
+  opacity: 0.5;
+  width:1px;
+  height:1px;
+
+}
+.label-batch{
+  padding-right: 10px;
+  margin-left: 10px;
+}
+.select-batch{
+  width:180px;
+  height:30px;
+}
+.modal-title{
+  text-align: center;
+  color: #1aa3ff;
+}
+.inPut-Batch{
+  height:30px;
+  width:200px;
+}
+h3 {
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4{
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-Batch,
+.btn-Batch:hover{
+  color:white;
+  background: #007bff;
+  border: 1px solid #007bff;
+  width:105px;
+
+}
+.btn-Batch-Cancel,
+.btn-Batch-Cancel:hover{
+  color: black;
+  background:#f8f9fa;
+  border: 1px solid #007bff;
+  width:105px;
+}
+.modal-open,
+::-webkit-scrollbar {
+    overflow: scroll;
+}
