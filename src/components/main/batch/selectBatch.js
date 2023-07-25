@@ -49,7 +49,7 @@ export default function SelectBatch() {
   }, []);
 
   useEffect(() => {
-    posts.every((item) => {
+    posts?.every((item) => {
       let dateEndPrev = dayjs(item.dateEnd).format("YYYY/MM/DD");
       setIsDateDuplicate(dateEndPrev);
       setBatchTile(item.nameCoure);
